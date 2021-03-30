@@ -1,0 +1,11 @@
+<h1>this is the <strong>Users</strong> table</h1>
+
+<div>
+<% @users.each do |user| %>
+ <p>id: <%= user.id %></p>
+ <p>name: <%= user.name %></p>
+ <p>lastname: <%= user.lastname %></p>
+ <p>age: <%= user.age %></p>
+ <hr>
+<% end %>
+</div>
